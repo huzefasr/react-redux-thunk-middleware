@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import { Provider } from 'react-redux';
-import store from '../store';
-import Demo from './Demo';
-import './App.css';
+import React, { Component } from "react";
+import { Provider } from "react-redux";
+import store from "../store";
+import Demo from "./Demo";
+import "./App.css";
 
 export default class App extends Component {
   render() {
@@ -10,6 +10,6 @@ export default class App extends Component {
       <Provider store={store}>
         <Demo />
       </Provider>
-    )
+    );
   }
 }
